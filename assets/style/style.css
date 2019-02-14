@@ -18,7 +18,7 @@ li {
 }
 
 #board {
-    margin: 50px auto 0px auto;
+    margin: 50px auto 20px auto;
 }
 
 td {
@@ -32,4 +32,20 @@ td {
     font-size: 120px;
     text-align: center;
     color: #BBA3D0;
+}
+
+h5 {
+    text-align: center;
+}
+
+.btn-left {
+    margin: 0px 0px 0px auto;
+}
+
+.btn-right {
+    margin: 0px auto 0px 0px;
+}
+
+.btn-center {
+    margin: 0px 0px 0px 0px;
 }
