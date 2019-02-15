@@ -25,8 +25,6 @@ $(document).ready(function () {
 
     //game reset
     function gameReset() {
-        currentTurn = "X";
-        document.getElementById("currentPlayer").innerHTML = currentTurn;
         button1State = "empty";
         button2State = "empty";
         button3State = "empty";
@@ -176,7 +174,7 @@ $(document).ready(function () {
     }
 
     function errorAlert() {
-        document.getElementById("alertDiv").innerHTML = "<div class='alert alert-info alert-dismissible fade show' role='alert'> Please click an empty square <button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button></div>";
+        document.getElementById("alertDiv").innerHTML = "<div class='alert alert-info alert-dismissible fade show' role='alert'> Please click a non-greyed out button<button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button></div>";
     }
 
 
